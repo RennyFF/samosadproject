@@ -13,7 +13,7 @@ app.get('/api/dataMarks', (req, res) => {
 app.post('/api/saveUser', (req, res) => {
     const user = req.body;
     const jsonData = JSON.stringify(user, null, " ");
-   fs.writeFile("users.json", jsonData, (error)=>{
+   fs.writeFile(process.cwd()+'/server/users.json', jsonData, (error)=>{
         if (error) {
             console.error(error);
             throw error;
@@ -24,7 +24,7 @@ app.post('/api/saveUser', (req, res) => {
 app.post('/api/saveMark', (req, res) => {
     const mark = req.body;
     const jsonData = JSON.stringify(mark, null, " ");
-    fs.writeFile("marks.json", jsonData, (error)=>{
+    fs.writeFile(process.cwd()+'/server/marks.json', jsonData, (error)=>{
         if (error) {
             console.error(error);
             throw error;
