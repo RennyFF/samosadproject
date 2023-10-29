@@ -35,4 +35,5 @@ app.post('/api/saveMark', (req, res) => {
     })
     res.json({ message: 'Mark saved successfully!' });
 });
+
 app.listen(port, () => console.log(`Listening on port ${port}`));
