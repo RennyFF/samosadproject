@@ -1,0 +1,140 @@
+#teacherPage{
+  &--h1{
+    color: #000;
+    font-family: Roboto Flex;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 48px;
+  }
+  &--activesection{
+    display: flex;
+    justify-content: space-around;
+    &__leftsec{
+      display: flex;
+      flex-direction: column;
+      width: 752px;
+      height: 500px;
+      border-radius: 12px;
+      background: rgba(65, 72, 255, 0.41);
+      &--p{
+        margin-top: 12px;
+        color: #FFF;
+        text-align: center;
+        font-family: Roboto Flex;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 0.16px;
+        margin-bottom: 14px;
+      }
+      &--listDiv{
+        display: flex;
+        padding: 0px 12px;
+        justify-content: center;
+        height: 360px;
+        margin-bottom: 12px;
+        &--listofmarks{
+          height: 360px;
+          overflow-y: auto;
+          overflow-x: hidden;
+          &::-webkit-scrollbar {
+            width: 18px;
+          }
+
+          &::-webkit-scrollbar-track {
+            background: black;
+            border-radius: 5px;
+          }
+          &::-webkit-scrollbar-corner{
+            margin-right: 10px;
+          }
+          &::-webkit-scrollbar-thumb {
+            background-color: white;
+            border-radius: 4px;
+            border: 4px solid white;
+          }
+        }
+      }
+      &--adding{
+        align-self: center;
+        display: flex;
+        border-radius: 32px;
+        background: #FFF;
+        width: 60px;
+        height: 50px;
+        align-items: center;
+        justify-content: center;
+        color: #9197E5;
+        text-align: center;
+        font-family: Roboto Flex;
+        font-size: 64px;
+        font-style: normal;
+      }
+    }
+    &__rightsec{
+      display: flex;
+      flex-direction: column;
+      width: 752px;
+      height: 500px;
+      border-radius: 12px;
+      background: rgb(255, 255, 255);
+      &--p{
+        margin-top: 12px;
+        color: #9BA0ED;;
+        text-align: center;
+        font-family: Roboto Flex;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 0.16px;
+        margin-bottom: 14px;
+      }
+      &--listDiv{
+        display: flex;
+        padding: 0px 12px;
+        justify-content: center;
+        height: 360px;
+        margin-bottom: 12px;
+        &--listofmarks{
+          height: 360px;
+          overflow-y: auto;
+          overflow-x: hidden;
+          &::-webkit-scrollbar {
+            width: 18px;
+          }
+
+          &::-webkit-scrollbar-track {
+            background: black;
+            border-radius: 5px;
+          }
+          &::-webkit-scrollbar-corner{
+            margin-right: 10px;
+          }
+          &::-webkit-scrollbar-thumb {
+            background-color: #9BA0ED;
+            border-radius: 4px;
+            border: 4px solid #9BA0ED;
+          }
+        }
+      }
+      &--adding{
+        align-self: center;
+        display: flex;
+        border-radius: 32px;
+        background: #9197E5;
+        width: 60px;
+        height: 50px;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        text-align: center;
+        font-family: Roboto Flex;
+        font-size: 64px;
+        font-style: normal;
+      }
+    }
+  }
+}

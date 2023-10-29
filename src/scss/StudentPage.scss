@@ -1,0 +1,85 @@
+@import "_vars.scss";
+#diary_student_page{
+  display: flex;
+  height: 50vh;
+  align-items: center;
+  position: relative;
+  #contain{
+    position: absolute;
+    display: flex;
+    align-items: center;
+  }
+  &--starone{
+    position: absolute;
+    width: 40%;
+    left: 150px;
+    user-select: none;
+    bottom: -100px;
+  }
+  &--startwo{
+position: absolute;
+    width: 50%;
+    right: 0px;
+    user-select: none;
+    top: 120px;
+  }
+  &--h1{
+    color: $black;
+    margin-right: 220px;
+    text-align: center;
+    font-family: Roboto Flex;
+    font-size: 86px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.48px;
+  }
+  &--listDiv{
+    display: inline-flex;
+    height: 500px;
+
+    padding: 12px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: rgba(41, 77, 250, 0.50);
+    .list-group{
+      overflow: auto;
+      height: 100%;
+      width: 300px;
+    }
+    #diary_student_page--ListOfMarks{
+      position: relative;
+      &--nomark{
+        color: white;
+        text-align: center;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 38px;
+        position: absolute;
+        font-family: Roboto Flex;
+        font-weight: 700;
+        display: flex;
+        justify-content: center;
+      }
+      &::-webkit-scrollbar {
+        width: 18px;
+      }
+
+      &::-webkit-scrollbar-track {
+        background: #D9D9D9;
+        border-radius: 5px;
+      }
+      &::-webkit-scrollbar-corner{
+        margin-right: 10px;
+      }
+      &::-webkit-scrollbar-thumb {
+        background-color: #5b02ff;
+        border-radius: 4px;
+        border: 4px solid #5b02ff;
+      }
+    }
+  }
+}

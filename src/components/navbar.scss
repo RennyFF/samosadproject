@@ -1,0 +1,80 @@
+@import "../scss/_vars.scss";
+#nav{
+  display: flex;
+  justify-content: center;
+ #hiText{
+   color: #5d5d5d;
+   display: flex;
+   align-items: center;
+   font-size: 18px;
+   font-weight: 700;
+   font-family: "Roboto Flex", serif;
+   &--span{
+     color: $black;
+   }
+  }
+  #LoginButton{
+    display: flex;
+    justify-content: center;
+    border-radius: 16px;
+    padding: 16px;
+    background: $dblue;
+    color: #FFF;
+    text-align: center;
+    font-family: "Roboto Flex", serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    width: 93px;
+    line-height: normal;
+    opacity: 0.9;
+    transition: all 0.15s linear;
+    &:hover{
+      opacity: 1;
+      transition: all 0.15s linear;
+    }
+  }
+  #todiar{
+    display: flex;
+    justify-content: center;
+    border-radius: 16px;
+    padding: 16px;
+    margin-right: 12px;
+    background: #5b02ff;
+    color: #FFF;
+    text-align: center;
+    font-family: "Roboto Flex", serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    opacity: 0.9;
+    transition: all 0.15s linear;
+    &:hover{
+      opacity: 1;
+      transition: all 0.15s linear;
+    }
+  }
+  #Support{
+    align-content: center;
+    margin-right: 16px;
+    padding: 16px;
+    justify-content: center;
+    border-radius: 16px;
+    background: $black;
+    color: #FFF;
+    text-align: center;
+    font-family: "Roboto Flex", serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.07px;
+    opacity: 0.9;
+    transition: all 0.15s linear;
+    &:hover{
+      opacity: 1;
+      transition: all 0.15s linear;
+    }
+  }
+}

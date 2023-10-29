@@ -1,0 +1,26 @@
+// Colors
+$bgColor: radial-gradient(126.66% 126.19% at 50.01% 86.65%, rgba(201, 206, 210, 0.00) 0%, #C9CED2 41.67%);
+$white: #FFFFFF;
+$black: #0B1519;
+$lblue: #6C86FF;
+$dblue: #294DFA;
+//$btnColor: black;
+
+// Container & Breakpoints
+@use 'sass:math';
+$containerWidth: 1700;
+$containerPadding: 40;
+$containerSidePadding: math.div($containerPadding, 2);
+$xl: 1280.98 + px;
+$lg: 991.98 + px;
+$md: 767.98 + px;
+$sm: 479.98 + px;
+
+// Burger Menu
+$burgerBreakpoint: $lg;
+$burgerColor: 'black';
+$burgerActiveColor: 'white';
+
+// Fonts
+$fontMain: sans-serif;
+$fontSecondary: '';

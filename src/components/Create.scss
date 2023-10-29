@@ -1,0 +1,119 @@
+@import "../scss/vars";
+
+#background{
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  #CreateStudent{
+    border-radius: 24px;
+    background: rgba(145, 151, 229, 0.76);
+    width: 501px;
+    padding: 12px 0px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    &:before {
+      content: '';
+      position: absolute;
+      top: 0; right: 0; bottom: 0; left: 0;
+      z-index: -1;
+      margin: -5px;
+      border-radius: inherit;
+      background: linear-gradient(40deg, rgba(255,255,255,1) 14%, rgba(135,142,231,1) 100%);
+    }
+    &--h2{
+      color: #ffffff;
+      text-align: center;
+      leading-trim: both;
+      text-edge: cap;
+      font-family: Roboto Flex;
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      letter-spacing: 0.24px;
+      margin-bottom: 24px;
+    }
+    &--input{
+      border-radius: 8px;
+      display: inline-flex;
+      width: 450px;
+      padding: 10px 0px 10px 0px;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 12px;
+      color: #9197E5;
+      text-align: center;
+      font-family: Roboto Flex;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 600;
+      user-focus: h;
+      line-height: normal;
+      &:focus{
+        outline: none;
+      }
+      &::-webkit-input-placeholder{
+        color: rgba(160, 166, 229, 0.62);
+        text-align: center;
+        font-family: Roboto Flex;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+      }
+    }
+    &--button{
+      margin-top: 12px;
+      border-radius: 12px;
+      background: #9197E5;
+      display: flex;
+      width: 200px;
+      height: 36px;
+      padding: 10px 19px;
+      justify-content: center;
+      align-items: center;
+      color: #FFF;
+      text-align: center;
+      font-family: Roboto Flex;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      letter-spacing: 0.24px;
+      opacity: 0.8;
+      transition: all 0.1s linear;
+      border: #ffffff 1px solid;
+      &:hover{
+        opacity: 1;
+        border: #ffffff 3px solid;
+        transition: all 0.1s linear;
+      }
+    }
+    &--error{
+      color:red;
+      margin-bottom: 12px;
+      font-family: Roboto Flex;
+      font-weight: bold;
+    }
+    &--close{
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      color: white;
+      padding: 0px 0px 3px 0px;
+      font-size: 30px;
+      width: 40px;
+      height: 40px;
+      background: #ff4141;
+      border-radius: 6px 6px 6px 14px;
+    }
+  }
+}

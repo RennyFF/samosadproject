@@ -1,0 +1,26 @@
+[
+ {
+  "id": 1,
+  "related_to": 1,
+  "mark": 5,
+  "data": "20.09.2023"
+ },
+ {
+  "id": 2,
+  "mark": 2,
+  "related_to": 1,
+  "data": "28.10.2023"
+ },
+ {
+  "id": 3,
+  "mark": 1,
+  "related_to": 1,
+  "data": "13.10.2023"
+ },
+ {
+  "id": 4,
+  "mark": 2,
+  "related_to": 1,
+  "data": "28.10.2023"
+ }
+]

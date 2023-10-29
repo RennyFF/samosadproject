@@ -1,0 +1,44 @@
+[
+ {
+  "id": 0,
+  "full_name": "Самосадко Анна Олеговна",
+  "login": "cherao",
+  "password": "herao",
+  "isTeacher": true
+ },
+ {
+  "id": 1,
+  "full_name": "Марьин Пётр Евгеньевич",
+  "login": "mar",
+  "password": "ar",
+  "isTeacher": false
+ },
+ {
+  "id": 2,
+  "full_name": "Томилов Владислав Игоревич",
+  "login": "tom",
+  "password": "om",
+  "isTeacher": false
+ },
+ {
+  "id": 3,
+  "full_name": "Ганза Алина Павловна",
+  "login": "gan",
+  "password": "an",
+  "isTeacher": false
+ },
+ {
+  "id": 4,
+  "full_name": "Петров Петр Алексеевич",
+  "login": "pet",
+  "password": "et",
+  "isTeacher": false
+ },
+ {
+  "id": 5,
+  "full_name": "1",
+  "login": "1",
+  "password": "1",
+  "isTeacher": false
+ }
+]
