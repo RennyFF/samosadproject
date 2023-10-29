@@ -7,7 +7,7 @@ app.use(bodyParser.json());
 
 function getData() {
     let res = "";
-     fs.readFile(process.cwd() + '/users.json', 'utf8').then(i => res=i);
+     fs.readFile(process.cwd() + '/server/users.json', 'utf8').then(i => res=i);
      return res;
 }
 app.get('/api/dataUser', (req, res) => {
