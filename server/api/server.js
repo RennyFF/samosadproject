@@ -11,15 +11,15 @@ app.get('/api/dataUser', (req, res) => {
     filenames.forEach(file => {
         console.log(file);
     });
-    res.json(JSON.parse(fs.readFileSync(process.cwd()+'/server/users.json')));
+    res.json(JSON.parse(fs.readFileSync(process.cwd()+'/server/tmp/users.json')));
 });
 app.get('/api/dataMarks', (req, res) => {
-    res.json(JSON.parse(fs.readFileSync(process.cwd()+'/server/marks.json')));
+    res.json(JSON.parse(fs.readFileSync(process.cwd()+'/server/tmp/marks.json')));
 });
 app.post('/api/saveUser', (req, res) => {
     const user = req.body;
     const jsonData = JSON.stringify(user, null, " ");
-   fs.writeFile(process.cwd()+'/server/users.json', jsonData, (error)=>{
+   fs.writeFile(process.cwd()+'/server/tmp/users.json', jsonData, (error)=>{
         if (error) {
             console.error(error);
             throw error;
@@ -30,7 +30,7 @@ app.post('/api/saveUser', (req, res) => {
 app.post('/api/saveMark', (req, res) => {
     const mark = req.body;
     const jsonData = JSON.stringify(mark, null, " ");
-    fs.writeFile(process.cwd()+'/server/marks.json', jsonData, (error)=>{
+    fs.writeFile(process.cwd()+'/server/tmp/marks.json', jsonData, (error)=>{
         if (error) {
             console.error(error);
             throw error;
