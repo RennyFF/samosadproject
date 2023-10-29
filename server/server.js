@@ -2,17 +2,10 @@ const express = require('express');
 const app = express();
 const port = process.env.PORT || 5000;
 const bodyParser = require('body-parser');
-import { promises as fs } from 'fs';
+import fs from 'fs';
 app.use(bodyParser.json());
-
-function getData() {
-    let a = "2";
-    let res = "";
-     fs.readFile(process.cwd() + '/server/users.json', 'utf8').then(i => res=i);
-     return res;
-}
 app.get('/api/dataUser', (req, res) => {
-    res.json(JSON.parse(getData()).toString());
+    res.json(JSON.parse(fs.readFileSync('/var/task/server/users.json','utf8').toString()));
 });
 app.get('/api/dataMarks', (req, res) => {
     res.json(JSON.parse(fs.readFileSync('/marks.json').toString()));
