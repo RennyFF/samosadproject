@@ -33,12 +33,5 @@
   "login": "pet",
   "password": "et",
   "isTeacher": false
- },
- {
-  "id": 5,
-  "full_name": "1",
-  "login": "1",
-  "password": "1",
-  "isTeacher": false
  }
 ]
