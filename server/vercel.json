@@ -4,6 +4,12 @@
     "use": "@vercel/node"
   }
   ],
+  "functions": {
+    "server.js": {
+      "memory": 1024,
+      "includeFiles": "db/*"
+    }
+  },
   "rewrites": [
     {
       "source": "/(.*)",
