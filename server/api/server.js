@@ -5,9 +5,9 @@ const bodyParser = require('body-parser');
 import fs from 'fs';
 app.use(bodyParser.json());
 app.get('/api/dataUser', (req, res) => {
-    let filenames = fs.readdirSync(process.cwd()+'/server/');
-
+    let filenames = fs.readdirSync(process.cwd()+'/server/tmp/');
     console.log("\nCurrent directory filenames:");
+    console.log("sad");
     filenames.forEach(file => {
         console.log(file);
     });
