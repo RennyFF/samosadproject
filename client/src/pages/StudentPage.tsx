@@ -16,7 +16,7 @@ export function StudentPage() {
   async function fetchMarks() {
     try {
       const response = await axios.get<IStudentMark[]>(
-          'http://localhost:5000/api/dataMarks'
+          'https://samosadproject-serv.vercel.app/api/dataMarks'
       );
       response.data.map((i:IStudentMark, index) =>
           (i.related_to === user.id ? (setMarksList(marksList=>AppendToEnd(marksList, i)), setCount(count=>count +1)) : null)

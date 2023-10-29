@@ -37,7 +37,7 @@ export function Create({ isStudentAdding, state, activeID }: createModalProps) {
   async function fetchUsers() {
     try {
       const response = await axios.get<IUsers[]>(
-          'http://localhost:5000/api/dataUser'
+          'https://samosadproject-serv.vercel.app/api/dataUser'
       );
       setUsers(response.data);
     } catch (error) {
@@ -47,7 +47,7 @@ export function Create({ isStudentAdding, state, activeID }: createModalProps) {
   async function fetchMarks() {
     try {
       const response = await axios.get<IStudentMark[]>(
-          'http://localhost:5000/api/dataMarks'
+          'https://samosadproject-serv.vercel.app/api/dataMarks'
       );
       setMarksList(response.data);
     } catch (error) {
@@ -71,7 +71,7 @@ export function Create({ isStudentAdding, state, activeID }: createModalProps) {
     users.push(newStudent);
     try {
       const json = JSON.stringify(users, null);
-      const response = await axios.post('http://localhost:5000/api/saveUser', json, {
+      const response = await axios.post('https://samosadproject-serv.vercel.app/api/saveUser', json, {
         headers: { 'Content-Type': 'application/json' }
       })
       console.log('User saved successfully:', response);
@@ -101,7 +101,7 @@ export function Create({ isStudentAdding, state, activeID }: createModalProps) {
     marksList.push(newMark);
     try {
       const json = JSON.stringify(marksList, null);
-      const response = await axios.post('http://localhost:5000/api/saveMark', json, {
+      const response = await axios.post('https://samosadproject-serv.vercel.app/api/saveMark', json, {
         headers: { 'Content-Type': 'application/json' }
       })
       console.log('Mark saved successfully:', response);

@@ -21,7 +21,7 @@ export const FormLogin = () => {
   async function fetchUsers() {
     try {
       const response = await axios.get<IUsers[]>(
-          'http://localhost:5000/api/dataUser'
+          'https://samosadproject-serv.vercel.app/api/dataUser'
       );
       setAllusers(response.data);
     } catch (error) {

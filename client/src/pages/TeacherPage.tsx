@@ -23,7 +23,7 @@ export const TeacherPage = () => {
   async function fetchUsers() {
     try {
       const response = await axios.get<IUsers[]>(
-          'http://localhost:5000/api/dataUser'
+          'https://samosadproject-serv.vercel.app/api/dataUser'
       );
       const _:IUser[] = []
       response.data.map((i) =>
@@ -37,7 +37,7 @@ export const TeacherPage = () => {
   async function fetchMarks() {
     try {
       const response = await axios.get<IStudentMark[]>(
-          'http://localhost:5000/api/dataMarks'
+          'https://samosadproject-serv.vercel.app/api/dataMarks'
       );
       setAllmarks(response.data);
     } catch (error) {
