@@ -2,13 +2,19 @@ const express = require('express');
 const app = express();
 const port = process.env.PORT || 5000;
 const bodyParser = require('body-parser');
-const fs = require("fs");
+import { promises as fs } from 'fs';
 app.use(bodyParser.json());
+
+function getData() {
+    let res = "";
+     fs.readFile(process.cwd() + '/users.json', 'utf8').then(i => res=i);
+     return res;
+}
 app.get('/api/dataUser', (req, res) => {
-    res.json(JSON.parse(fs.readFileSync('users.json').toString()));
+    res.json(JSON.parse(getData()).toString());
 });
 app.get('/api/dataMarks', (req, res) => {
-    res.json(JSON.parse(fs.readFileSync('marks.json').toString()));
+    res.json(JSON.parse(fs.readFileSync('/marks.json').toString()));
 });
 app.post('/api/saveUser', (req, res) => {
     const user = req.body;
