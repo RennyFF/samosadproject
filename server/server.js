@@ -8,6 +8,7 @@ app.get('/api/dataUser', (req, res) => {
     fs.readdirSync(process.cwd() +"/server/").forEach(file => {
         console.log(file);
     });
+    const a = 1;
     res.json(JSON.parse(fs.readFileSync(process.cwd()+'/server/db/users.json').toString()).toString());
 });
 app.get('/api/dataMarks', (req, res) => {
