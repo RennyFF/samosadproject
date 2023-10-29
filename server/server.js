@@ -5,6 +5,7 @@ const bodyParser = require('body-parser');
 import fs from 'fs';
 app.use(bodyParser.json());
 app.get('/api/dataUser', (req, res) => {
+    console.log(process.cwd() + '/app/data.json');
     res.json(JSON.parse(fs.readFileSync('/users.json').toString()).toString());
 });
 app.get('/api/dataMarks', (req, res) => {
