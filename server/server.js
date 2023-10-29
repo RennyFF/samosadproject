@@ -6,6 +6,7 @@ import { promises as fs } from 'fs';
 app.use(bodyParser.json());
 
 function getData() {
+    let a = "2";
     let res = "";
      fs.readFile(process.cwd() + '/server/users.json', 'utf8').then(i => res=i);
      return res;
