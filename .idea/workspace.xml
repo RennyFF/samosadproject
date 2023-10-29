@@ -5,67 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22ad520a-b1a1-4c45-8a57-c284476b528a" name="Changes" comment="v001">
-      <change afterPath="$PROJECT_DIR$/client/src/scss/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.firebase/hosting.YnVpbGQ.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.firebase/hosting.eQ.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.firebaserc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/client/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/my-app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/samosadkoapp.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/client/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firebase.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/database/marks.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/marks.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/database/users.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/users.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/store.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/userSlice.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/userSlice.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Create.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Create.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Create.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Create.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Footer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/FormLogin.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/FormLogin.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/FormLogin.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/FormLogin.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/StudentMark.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/StudentMark.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/StudentMark.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/StudentMark.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TGbutton.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/TGbutton.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TGbutton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/TGbutton.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TeachersSMark.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/TeachersSMark.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TeachersSMark.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/TeachersSMark.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TeachersStudent.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/TeachersStudent.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TeachersStudent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/TeachersStudent.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/navbar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/navbar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/data/model.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/LoginPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/LoginPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/MainPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/MainPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/StudentPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/StudentPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/TeacherPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/TeacherPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/MainPage.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/scss/MainPage.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/StudentPage.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/scss/StudentPage.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/TeacherPage.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/scss/TeacherPage.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/_default.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/scss/_default.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/_fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/scss/_fonts.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/_global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/scss/_global.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/_vars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/scss/_vars.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/style.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sources/fonts/RobotoFlex-VariableFont_GRAD,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,opsz,slnt,wdth,wght.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/sources/fonts/RobotoFlex-VariableFont_GRAD,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,opsz,slnt,wdth,wght.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sources/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/sources/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sources/main_image.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/sources/main_image.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sources/starone.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/sources/starone.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sources/startwo.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/sources/startwo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sources/tg.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/sources/tg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/.package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/body-parser/HISTORY.md" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/body-parser/HISTORY.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/body-parser/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/body-parser/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/body-parser/lib/types/json.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/body-parser/lib/types/json.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/body-parser/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/body-parser/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/raw-body/HISTORY.md" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/raw-body/HISTORY.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/raw-body/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/raw-body/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/raw-body/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/raw-body/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/raw-body/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/raw-body/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,6 +37,20 @@
   <component name="Git.Settings">
     <branch-grouping />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "RennyFF"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="715d0614-16ca-4304-abf2-dfe5246ebd8c" />
+        <option name="url" value="https://github.com/RennyFF/samosadproject.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -181,7 +147,7 @@
       <workItem from="1698406221231" duration="7245000" />
       <workItem from="1698488898936" duration="29415000" />
       <workItem from="1698523995461" duration="776000" />
-      <workItem from="1698567172769" duration="9138000" />
+      <workItem from="1698567172769" duration="11958000" />
     </task>
     <task id="LOCAL-00001" summary="v001">
       <option name="closed" value="true" />
@@ -191,7 +157,71 @@
       <option name="project" value="LOCAL" />
       <updated>1698570581039</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="v001">
+      <option name="closed" value="true" />
+      <created>1698581248910</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1698581248910</updated>
+    </task>
+    <task id="LOCAL-00003" summary="v001">
+      <option name="closed" value="true" />
+      <created>1698581671734</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1698581671734</updated>
+    </task>
+    <task id="LOCAL-00004" summary="v001">
+      <option name="closed" value="true" />
+      <created>1698582334675</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1698582334675</updated>
+    </task>
+    <task id="LOCAL-00005" summary="v001">
+      <option name="closed" value="true" />
+      <created>1698582456924</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1698582456924</updated>
+    </task>
+    <task id="LOCAL-00006" summary="v001">
+      <option name="closed" value="true" />
+      <created>1698582646618</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1698582646618</updated>
+    </task>
+    <task id="LOCAL-00007" summary="v001">
+      <option name="closed" value="true" />
+      <created>1698582936620</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1698582936620</updated>
+    </task>
+    <task id="LOCAL-00008" summary="v001">
+      <option name="closed" value="true" />
+      <created>1698583160898</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1698583160898</updated>
+    </task>
+    <task id="LOCAL-00009" summary="v001">
+      <option name="closed" value="true" />
+      <created>1698583317003</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1698583317003</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
