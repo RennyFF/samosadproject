@@ -11,5 +11,16 @@
       "source": "/(.*)",
       "destination": "/api/server.js"
     }
+  ],
+  "headers": [
+    {
+      "source": "/about.js",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "s-maxage=1, stale-while-revalidate=59"
+        }
+      ]
+    }
   ]
 }
