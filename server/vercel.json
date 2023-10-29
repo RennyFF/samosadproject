@@ -14,7 +14,7 @@
   ],
   "headers": [
     {
-      "source": "/api/server.js",
+      "source": "/server.js",
       "headers": [
         {
           "key": "Cache-Control",
