@@ -4,7 +4,7 @@ const port = process.env.PORT || 5000;
 const bodyParser = require('body-parser');
 const cors = require("cors");
 import fs from 'fs';
-app.use(bodyParser.json(), cors);
+app.use(bodyParser.json(), cors());
 app.get('/api/dataUser', (req, res) => {
     let filenames = fs.readdirSync(process.cwd()+'/server/tmp/');
     console.log("\nCurrent directory filenames:");
