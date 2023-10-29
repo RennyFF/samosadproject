@@ -8,7 +8,7 @@ app.get('/api/dataUser', (req, res) => {
     res.json(JSON.parse(fs.readFileSync('/var/task/server/users.json','utf8').toString()));
 });
 app.get('/api/dataMarks', (req, res) => {
-    res.json(JSON.parse(fs.readFileSync('/marks.json').toString()));
+    res.json(JSON.parse(fs.readFileSync('/var/task/server/marks.json').toString()));
 });
 app.post('/api/saveUser', (req, res) => {
     const user = req.body;
