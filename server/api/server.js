@@ -6,12 +6,6 @@ const cors = require("cors");
 import fs from 'fs';
 app.use(bodyParser.json(), cors());
 app.get('/api/dataUser', (req, res) => {
-    let filenames = fs.readdirSync(process.cwd()+'/server/tmp/');
-    console.log("\nCurrent directory filenames:");
-    console.log("sad");
-    filenames.forEach(file => {
-        console.log(file);
-    });
     res.json(JSON.parse(fs.readFileSync(process.cwd()+'/server/tmp/users.json')));
 });
 app.get('/api/dataMarks', (req, res) => {
@@ -20,7 +14,7 @@ app.get('/api/dataMarks', (req, res) => {
 app.post('/api/saveUser', (req, res) => {
     const user = req.body;
     const jsonData = JSON.stringify(user, null, " ");
-   fs.writeFile(process.cwd()+'/server/tmp/users.json', jsonData, (error)=>{
+   fs.writeFileSync(process.cwd()+'/server/tmp/users.json', jsonData, (error)=>{
         if (error) {
             console.error(error);
             throw error;
@@ -31,7 +25,7 @@ app.post('/api/saveUser', (req, res) => {
 app.post('/api/saveMark', (req, res) => {
     const mark = req.body;
     const jsonData = JSON.stringify(mark, null, " ");
-    fs.writeFile(process.cwd()+'/server/tmp/marks.json', jsonData, (error)=>{
+    fs.writeFileSync(process.cwd()+'/server/tmp/marks.json', jsonData, (error)=>{
         if (error) {
             console.error(error);
             throw error;
